@@ -60,51 +60,89 @@
 
 == 举例说明
 
-.模板定义
+.决定要不要做某件事
 |===
 |步骤 |描述 |来源 |检查点
 
-| 步骤1
-| 步骤1的详细描述
-| 步骤1及检查点的来源
+| 快速行动
+| 是否之前已经分析过，决定了要做了？已分析过的就直接做吧，例如一些例行化的事务（刷牙、洗澡等）
+| 《思考，快与慢》
+|
++++<input type="checkbox">+++之前已分析过的就直接沿用结论（做、不做）
+
++++<input type="checkbox">+++觉得之前分析结果存在优化空间的，则走下一步
+
+| 根因分析
+| 分析一下为什么要做这件事，核心需求是什么
+| https://blog.csdn.net/chktsang/article/details/98749273[5 Whys]
 |
 
-+++<input type="checkbox">+++检查点1
++++<input type="checkbox">+++First Why
 
-+++<input type="checkbox">+++检查点2
++++<input type="checkbox">+++Second Why
 
-+++<input type="checkbox">+++检查点3
++++<input type="checkbox">+++Third Why
 
-| 步骤2
-| 步骤2的详细描述
-| 步骤2及检查点的来源
++++<input type="checkbox">+++Forth Why
+
++++<input type="checkbox">+++Fifth Why
+
+| 需求衍生
+| 一定只有这么做才能够满足这个需求吗？
+| 来源未知，某数字化转型变革会议上学到的
 |
 
-+++<input type="checkbox">+++检查点1
++++<input type="checkbox">+++参考标准（国家标准、国际标准）是怎么做的
 
-+++<input type="checkbox">+++检查点2
++++<input type="checkbox">+++参考友商（其他遇到类似需求的人）是怎么做的
 
-+++<input type="checkbox">+++检查点3
-| 步骤3
-| 步骤3的详细描述
-| 步骤3及检查点的来源
++++<input type="checkbox">+++痛点分析（之前是否已这么做过，存在什么问题，如何优化）
+
++++<input type="checkbox">+++战略驱动（OKR、KPI 等计划与本需求关联性如何）
+
+| 结果预期
+| 分几种极端的情况预期下结果
+| 来源未知
 |
 
-+++<input type="checkbox">+++检查点1
++++<input type="checkbox">+++不做会怎么样
 
-+++<input type="checkbox">+++检查点2
++++<input type="checkbox">+++最好会怎么样
 
-+++<input type="checkbox">+++检查点3
-| 步骤4
-| 步骤4的详细描述
-| 步骤4及检查点的来源
++++<input type="checkbox">+++最差会怎么样
+
+| 逆向思考
+| 反过来想，总是反过来想
+| 《穷查理宝典》
 |
 
-+++<input type="checkbox">+++检查点1
++++<input type="checkbox">+++反过来想这件事
 
-+++<input type="checkbox">+++检查点2
++++<input type="checkbox">+++再反过来想
 
-+++<input type="checkbox">+++检查点3
+| 10/10/10
+| 将时间线拉长来看待
+| 《高手》
+|
+
++++<input type="checkbox">+++10分钟后你会怎么看待这件事
+
++++<input type="checkbox">+++10个月后你会怎么看待这件事
+
++++<input type="checkbox">+++10年后你会怎么看待这件事
+
+| 还是想做
+| 尽管分析出很多反方观点，但还是想做
+| 《非暴力沟通》
+|
+
++++<input type="checkbox">+++向自己坦白，你做这些事情是因为你选择了做它们，而不是因为你不得不做
+
++++<input type="checkbox">+++我选择做，是因为我想要...
+
++++<input type="checkbox">+++如果不喜欢现在这种想法和行为，那你希望自己怎样做
+
++++<input type="checkbox">+++你希望自己基于怎样的原因去做你希望自己做的事情
 
 |===
 
